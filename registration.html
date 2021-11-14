@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css" />
+  </head>
+  <body>
+    <div class="Rf">
+      <h1>Registration Form</h1>
+      <form>
+        <input type="text" placeholder="Name" required/>
+        <input type="email" placeholder="Email Address" pattern=".+@.+\..+" />
+        <input type="password" placeholder="Enter a Password" pattern="[a-zA-Z](10)" />
+        <input type="password" placeholder="Enter a Confirm Password" />
+        <button type="submit">Registration</button>
+      </form>
+    </div>
+  </body>
+</html>
