@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background: url("https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80");
+  background-size: 100%;
+}
+div.main {
+  width: 400px;
+  margin: 100px auto 0px auto;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+  color: chocolate;
+  font-family: "Kaushan Script", cursive;
+}
+div.register {
+  border-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 15px rgba(17, 16, 16, 0.3);
+  color: #fff;
+}
+form#register {
+  margin: 40px;
+}
+label {
+  font-size: 18px;
+
+  font-weight: bold;
+  color: black;
+  font-family: "Kaushan Script", cursive;
+}
+input#name {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.918);
+}
+input#submit {
+  width: 200px;
+  padding: 7px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  background-color: rgba(255, 110, 0, 0.8);
+  color: #fff;
+  cursor: pointer;
+}
+span {
+  font-family: "Kaushan Script", cursive;
+}
