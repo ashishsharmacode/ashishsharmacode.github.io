@@ -1,65 +1,54 @@
-*{
-    margin: 0;
-    padding: 0;
-
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background: url('https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-3293148.jpg&fm=jpg');
-    background-size: cover;
-
-
+body {
+  background: url("https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?cs=srgb&dl=pexels-asad-photo-maldives-3293148.jpg&fm=jpg");
+  background-size: cover;
 }
-.login-form{
-    width:350px;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    color: #ffffff;
-    transform: translate(-50%,-50%);
-     
+.login-form {
+  width: 350px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  color: #ffffff;
+  transform: translate(-50%, -50%);
 }
-.login-form h1 { 
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 40px auto;
-
+.login-form h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px auto;
 }
-.login-form p { 
-    font-size: 20px;
-    margin: 15px auto;
-
+.login-form p {
+  font-size: 20px;
+  margin: 15px auto;
 }
 .login-form input {
-    font-size: 16px;
-    width: 100%;
-    padding: 15px;
-    border-radius: 5px;
-   
-    border: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+
+  border: none;
 }
 .login-form button {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 20px auto;
-    padding: 10px;
-    border-radius: 10px;
-    width: 50%;
-    border: 0;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 50%;
+  border: 0;
 }
-.registration form{
-    position: relative;
-    color: #ffffff;
-    border-radius: 50%;
-    width: 32px;
-    height: 32px;
-
+.registration form {
+  position: relative;
+  color: #ffffff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
 }
-.login-form a{
-    color: #ffffff;
-    text-decoration: none;
+.login-form a {
+  color: #ffffff;
+  text-decoration: none;
 }
-
-
-
-

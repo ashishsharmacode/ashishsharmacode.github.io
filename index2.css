@@ -1,111 +1,91 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
-header{
-    background-color: crimson;
+header {
+  background-color: crimson;
 }
-header h1{
-    text-align: center;
-    padding: 10px;
-    font-size: 2em;
-    color: black;
-    text-shadow: burlywood;
+header h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: 2em;
+  color: black;
+  text-shadow: burlywood;
 }
 
-
-
-
-nav{
-    background-color:blue;
+nav {
+  background-color: blue;
 }
 nav ul li,
 nav ul li a {
-    display: inline-block;
-    color: burlywood;
-    padding: 10px;
-    text-decoration: none;
+  display: inline-block;
+  color: burlywood;
+  padding: 10px;
+  text-decoration: none;
 }
- nav.Search{
-     float: right;
-     margin-top: 9px;
-     margin-right: 80px;
-     width: 20%;
-     height: 20px;
-     border-radius: 4px;
-     border: none;
-     text-indent: 5px;
-
-    
-    }
+nav.Search {
+  float: right;
+  margin-top: 9px;
+  margin-right: 80px;
+  width: 20%;
+  height: 20px;
+  border-radius: 4px;
+  border: none;
+  text-indent: 5px;
+}
 
 /*------section-----*/
-section{
-    background-color: #efefef;
-    width: 70%;
-    margin: 10px;
-    float: left;
-
+section {
+  background-color: #efefef;
+  width: 70%;
+  margin: 10px;
+  float: left;
 }
-section.img{
-    width: 100%;
-    height: 50%;
-    float: left;
-    }
-section p{
-    padding: 5px;
-}  
-article{
-    background-color: brown;
-    width: 70%;
-    float: left;
-    margin: 10px;
-    } 
-article p{
-    padding: 5px;
-height: 50%;
-
+section.img {
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+section p {
+  padding: 5px;
+}
+article {
+  background-color: brown;
+  width: 70%;
+  float: left;
+  margin: 10px;
+}
+article p {
+  padding: 5px;
+  height: 50%;
 }
 /*------side bar----*/
-aside{
-    background-color: chocolate;
-    float: right;
-    margin: 10px;
-    width: 25%;
-
+aside {
+  background-color: chocolate;
+  float: right;
+  margin: 10px;
+  width: 25%;
 }
-aside h2{
-    text-align: center;
-    background-color: coral;
-    color: rgb(10, 10, 10);
-    padding: 10px;
-
-
+aside h2 {
+  text-align: center;
+  background-color: coral;
+  color: rgb(10, 10, 10);
+  padding: 10px;
 }
 
 aside ul li,
 aside ul li a {
-    text-indent: 10px;
-    display: block;
-    text-decoration: none;
-    font-size: 1.1em;
-    padding: 10px;
-    color: darkgray;
+  text-indent: 10px;
+  display: block;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px;
+  color: darkgray;
 }
-footer{
-    background-color: darkseagreen;
-    clear: both;
-    text-align: center;
-    padding: 10px;
-    color: lightcoral;
+footer {
+  background-color: darkseagreen;
+  clear: both;
+  text-align: center;
+  padding: 10px;
+  color: lightcoral;
 }
-
-
-
-
-
-
-
-
-
-
