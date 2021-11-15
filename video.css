@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #2e8d86;
+}
+.rsvideo {
+  width: 85%;
+  display: flex;
+  margin: 20px;
+}
+.svideo {
+  width: 65%;
+  margin: 20px;
+}
+.hq {
+  width: 65%;
+  margin: 20px;
+}
+.mvideo {
+  width: 15%;
+  margin: 20px;
+}
+h2{
+    font-size: 50px;
+    
+
+}
