@@ -1,0 +1,37 @@
+
+body{
+    background-color: #007065;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tri1{
+    height: 0px;
+    width: 0px;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid #00A79D;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    position: absolute;
+    top: 150px;
+}
+#tri2{
+    height: 0px;
+    width: 0px;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid #F5C181;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    position: absolute;
+    top: 90px;
+}
+#tri3{
+    height: 0px;
+    width: 0px;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid #FFEECF;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    position: absolute;
+    top: 40px;
+}
