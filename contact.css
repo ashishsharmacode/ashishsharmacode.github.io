@@ -1,0 +1,25 @@
+body {
+  background-image: url("https://images.pexels.com/photos/4464438/pexels-photo-4464438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+}
+.heading {
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #29d69c;
+  width: 100%;
+}
+.nav-bar {
+  position: sticky;
+  top: 69px;
+
+  left: 0px;
+  background-color: #03b1fc;
+  margin: 0px;
+  padding: 0px;
+}
+.name-list {
+  margin-top: 20px;
+  color: darkmagenta;
+}
